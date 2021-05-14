@@ -66,6 +66,7 @@
       }
     ],
     "globalMetadata": {
+      "bilingual_type": "hover over",
       "feedback_system": "None",
       "feedback_github_repo": "",
       "feedback_product_url": "https://feedback.azure.com/forums/170031-sdk-and-tools",
