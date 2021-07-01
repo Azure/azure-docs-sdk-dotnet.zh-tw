@@ -104,12 +104,13 @@
     "fileMetadata": {
       "ms.service": {
         "api/Azure.Communication*.yml": "azure-communication-services",
+        "api/Azure.Communication.CallingServer*.yml": "azure-communication-services",
         "api/Azure.DigitalTwins.Core*.yml": "digital-twins",
         "api/Azure.AI.InkRecognizer*.yml": "cognitive-services",
         "api/Azure.AI.MetricsAdvisor*.yml": "cognitive-services",
         "api/Azure.AI.UWP.Stroke*.yml": "cognitive-services",
-        "api/Azure.ApplicationModel.Configuration*.yml": "azure",
         "api/Azure.Analytics.Purview.Scanning*.yml": "purview-data-catalog",
+        "api/Azure.ApplicationModel.Configuration*.yml": "azure",
         "api/Azure.Core*.yml": "azure",
         "api/Azure.Identity*.yml": "active-directory",
         "api/Azure.Messaging.EventGrid*.yml": "event-grid",
@@ -214,6 +215,7 @@
         "api/Microsoft.Azure.Management.Support*.yml": "azure-supportability",
         "api/Microsoft.Azure.Management.Synapse*.yml": "synapse-analytics",
         "api/Microsoft.Azure.Management.TrafficManager*.yml": "traffic-manager",
+        "api/Microsoft.Azure.Management.VideoAnalyzer*.yml": "azure-video-analyzer",
         "api/Microsoft.Azure.Management.WebSites*.yml": "app-service",
         "api/Microsoft.Azure.Management.WorkloadMonitor*.yml": "azure-monitor",
         "api/Microsoft.Azure.Media.LiveVideoAnalytics.Edge*.yml": "media-services/lva-edge",
