@@ -1,44 +1,5 @@
 {
-  "docsets_to_publish": [
-    {
-      "customized_tasks": {
-        "docset_postbuild": [
-          "_dependentPackages/ECMA2Yaml/tools/PostBuild.ps1"
-        ],
-        "docset_prebuild": [
-          "_dependentPackages/ECMA2Yaml/tools/Run.ps1",
-          "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1",
-          "_dependentPackages/CommonPlugins/tools/JoinTOC.ps1",
-          "_dependentPackages/CommonPlugins/tools/DiffFolder.ps1"
-        ]
-      },
-      "build_output_subfolder": ".",
-      "locale": "zh-TW",
-      "docset_name": "azuredotnet",
-      "open_to_public_contributors": false,
-      "monikers": [
-        "azure-dotnet"
-      ],
-      "version": 0,
-      "build_source_folder": ".",
-      "template_folder": "_themes",
-      "build_entry_point": "docs",
-      "type_mapping": {
-        "APIConnector": "Content",
-        "RestApi": "Content",
-        "LandingData": "Content",
-        "UniversalReference": "Content",
-        "ManagedReference": "Content",
-        "Conceptual": "Content",
-        "NetEnum": "Content",
-        "NetDelegate": "Content",
-        "NetNamespace": "Content",
-        "NetMember": "Content",
-        "NetType": "Content",
-        "ReferenceContainer": "Content"
-      }
-    }
-  ],
+  "docsets_to_publish": [],
   "notification_subscribers": [],
   "branches_to_filter": [
     "live"
@@ -46,7 +7,6 @@
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
-  "enable_incremental_build": true,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -80,6 +40,7 @@
   "docs_build_engine": {
     "name": "docfx_v3"
   },
+  "enable_incremental_build": true,
   "need_generate_pdf": false,
   "SplitTOC": "api/toc.yml",
   "JoinTOCPlugin": [
