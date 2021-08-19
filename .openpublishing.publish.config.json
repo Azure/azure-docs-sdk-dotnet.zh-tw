@@ -1,44 +1,5 @@
 {
-  "docsets_to_publish": [
-    {
-      "docset_name": "azuredotnet",
-      "build_source_folder": ".",
-      "build_output_subfolder": ".",
-      "locale": "zh-TW",
-      "monikers": [
-        "azure-dotnet"
-      ],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "APIConnector": "Content",
-        "RestApi": "Content",
-        "LandingData": "Content",
-        "UniversalReference": "Content",
-        "ManagedReference": "Content",
-        "Conceptual": "Content",
-        "NetEnum": "Content",
-        "NetDelegate": "Content",
-        "NetNamespace": "Content",
-        "NetMember": "Content",
-        "NetType": "Content",
-        "ReferenceContainer": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "customized_tasks": {
-        "docset_postbuild": [
-          "_dependentPackages/ECMA2Yaml/tools/PostBuild.ps1"
-        ],
-        "docset_prebuild": [
-          "_dependentPackages/ECMA2Yaml/tools/Run.ps1",
-          "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1",
-          "_dependentPackages/CommonPlugins/tools/JoinTOC.ps1",
-          "_dependentPackages/CommonPlugins/tools/DiffFolder.ps1"
-        ]
-      },
-      "version": 0
-    }
-  ],
+  "docsets_to_publish": [],
   "notification_subscribers": [],
   "branches_to_filter": [
     "live-sxs",
@@ -47,7 +8,6 @@
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
-  "enable_incremental_build": true,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -81,6 +41,7 @@
   "docs_build_engine": {
     "name": "docfx_v3"
   },
+  "enable_incremental_build": true,
   "need_generate_pdf": false,
   "SplitTOC": "api/toc.yml",
   "JoinTOCPlugin": [
